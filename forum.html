@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Forum</h1>
+            <button id="signOutBtn">Sign Out</button>
+        </header>
+
+        <main>
+            <h2>Forum Topics</h2>
+            <div class="forum-posts" id="forumPosts">
+                <!-- Forum posts will be dynamically added here -->
+            </div>
+
+            <form id="postForm">
+                <h2>Create a New Post</h2>
+                <textarea id="postContent" placeholder="Type your post here..."></textarea>
+                <button type="submit">Post</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>2024 Simple Forum By Yash Naik</p>
+        </footer>
+    </div>
+
+    <script src="forum.js"></script>
+</body>
+</html>
