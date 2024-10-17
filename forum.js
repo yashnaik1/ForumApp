@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         window.location.href = 'index.html';
     } else {
         // Display a welcome message (optional)
+        window.location.href = 'forum.html';
         console.log('Welcome, ' + userName);
     }
 });
